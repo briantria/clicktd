@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BootStateBehaviour : StateMachineBehaviour
+public class BootStateBehaviour : StateBehaviour
 {
-
+    public override void SetGameManager( GameManager p_gameManager )
+    {
+        m_gameManager = p_gameManager;
+    }
 }
