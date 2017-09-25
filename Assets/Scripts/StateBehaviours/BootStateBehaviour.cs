@@ -8,4 +8,9 @@ public class BootStateBehaviour : StateBehaviour
     {
         m_gameManager = p_gameManager;
     }
+
+    override void OnStateEnter( Animator p_animator, AnimatorStateInfo p_stateInfo, int p_layerIndex )
+    {
+        
+    }
 }
